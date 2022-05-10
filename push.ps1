@@ -12,13 +12,13 @@ Write-Host [3] 프로젝트 리모트.
 git remote add origin https://github.com/github01main/$current_location_name.git
 #[4] Commit Contents Input Area.
 Write-Host [4] 커밋 내용을 입력하시오.
-$commit_Contents = Read-Host "Enter what you want to commit :"
+$commit_Contents = Read-Host "Enter what you want to commit "
 #[5] Sending Commit Contents Information.
 Write-Host [5] 커밋 합니다.
 git commit -m $commit_Contents
 #[6] push Contents to branch Input Area.
 Write-Host [6] Push할 브랜치를 입력하주십시오.
-$branch_location = Read-Host "Enter the pushing branch name :"
+$branch_location = Read-Host "Enter the pushing branch name "
 #[7] Commit Content push Area.
 Write-Host [7] 해당 브랜치에 Push합니다.
 git push -u origin $branch_location
