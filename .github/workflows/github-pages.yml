@@ -12,8 +12,6 @@ jobs:
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
-    environment: production
-    concurrency: production
 
     steps:
     - name: Checkout
@@ -26,7 +24,7 @@ jobs:
       run: npm run test
 
     - name: Deploy
-      run:
+      run:  
         git config --global user.name 'github01main'
         git config --global user.email 'shiwook_github_01@hotmail.com'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
