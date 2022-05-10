@@ -23,5 +23,4 @@ $branch_location = Read-Host "Enter the pushing branch name "
 Write-Host [7] 해당 브랜치에 Push합니다.
 git push -u origin $branch_location
 Write-Host $branch_location 공간에 리소스들을 Push 하였습니다. 
-npm test
 Write-Host - - - Ended push.ps1 terminal - - -
