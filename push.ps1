@@ -25,7 +25,7 @@ git push -u origin $branch_location
 #[8] push completed message,
 Write-Host [8] 깃업데이트 파일을 활성화합니다.
 chmod +x action/git_update.sh
-git tag -a -m 'increment git tag' v1
+git tag -a -m 'increment git tag' v2
 git push --follow-tags
 Write-Host $branch_location 공간에 리소스들을 Push 하였습니다. 
 Write-Host - - - Ended push.ps1 terminal - - -
