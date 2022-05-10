@@ -2,7 +2,7 @@
 name: Build and Deploy React App to Github Pages
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 jobs:
   build-and-deploy:
     name: Build and Deploy
