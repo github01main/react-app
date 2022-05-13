@@ -1,5 +1,9 @@
 # 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
+## 사용기술
+
+![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+
 ## 사용의도
 
 > Who
@@ -10,8 +14,6 @@
 
 - [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성.
 - [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화.
-
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 ### `npm run eject`
 
