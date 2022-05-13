@@ -18,7 +18,7 @@ React | ES6+ | SCSS | PS 7.2.2 | YAML
 
 ### Javascript ES6+
 
-테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [React Javascript link documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [React Javascript documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 
 ### SASS
 
