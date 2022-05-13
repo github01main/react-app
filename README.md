@@ -2,7 +2,7 @@
 
 ## 사용기술
 
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+![picture alt](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png "Title is optional")
 
 ## 사용의도
 
