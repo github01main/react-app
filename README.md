@@ -16,10 +16,6 @@ React | ES6+ | SCSS | PS 7.2.2 | YAML
 
 ## 사용 기술 문서 리스트
 
-### React.js
-
-[Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
-
 ### Javascript ES6+
 
 테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [React Javascript link documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
