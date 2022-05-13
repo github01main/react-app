@@ -11,7 +11,7 @@
 - [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성.
 - [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 ### `npm run eject`
 
