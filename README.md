@@ -14,7 +14,7 @@ React | ES6+ | SCSS | PS 7.2.2 | YAML
 - [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 
 - [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음. 
 
-## Used skill stacks documentation.
+## 사용 기술 문서 리스트
 
 ### React.js
 
