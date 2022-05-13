@@ -1,9 +1,9 @@
 # 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
 ## 사용기술
-React.js | Javascript ES6+ | Center aligned Header
+React.js | Javascript ES6+ | SCSS
 | :---: | :---: | :---:
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="100">  | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width="100"> | Content Cell
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="100">  | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width="100"> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/320px-Sass_Logo_Color.svg.png" width="100">
 
 ## 사용의도
 
