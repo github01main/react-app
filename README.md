@@ -22,7 +22,7 @@ React | ES6+ | SCSS | PS 7.2.2 | YAML
 
 ### SASS
 
-호환성을 위하며 최신 Styled-Component [Sass documentation](https://sass-lang.com/documentation)
+Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SASS 공식 문서 [Sass documentation](https://sass-lang.com/documentation)
 
 ### Powershell 7.2.2
 
