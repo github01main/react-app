@@ -1,8 +1,8 @@
 # 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
 ## 사용기술
-
 ![picture alt](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png "Title is optional")
+![picture alt](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png "Title is optional")
 
 ## 사용의도
 
