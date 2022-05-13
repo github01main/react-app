@@ -5,7 +5,6 @@ Left aligned Header | Right aligned Header | Center aligned Header
 | :---: | :---: | :---:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="100">  | Content Cell | Content Cell
 Content Cell  | Content Cell | Content Cell
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="100">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width="100">
 
 ## 사용의도
