@@ -12,7 +12,7 @@ React | ES6+ | SCSS | PS 7.2.2
 - [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화.
 - [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성.
 - [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 
-- [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이 . 
+- [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음. 
 
 ### `npm run eject`
 
