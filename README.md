@@ -22,7 +22,7 @@ React | ES6+ | SCSS | PS 7.2.2 | YAML
 
 ### SASS
 
-[Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+호환성을 위하며 최신 Styled-Component [Sass documentation](https://sass-lang.com/documentation)
 
 ### Powershell 7.2.2
 
