@@ -16,7 +16,7 @@ React | ES6+ | SCSS | PS 7.2.2 | YAML
 
 ### Learn More
 
-To learn React, check out the [Powershell Link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+Used Platform Windows / Powershell Version 7.2.2 [Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 ### Code Splitting
 
