@@ -1,15 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 리액트로 구현한 포트폴리오 사이트 제작.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+## 목적 달성 도표
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [x] CICD를 이용한 테스트 코드 작성.
+- [x] Google Domain의 DNS를 이용한 Git-hub Pages IP 전환하기.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
