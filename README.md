@@ -2,8 +2,8 @@
 
 ## 사용의도
 
- > Blockquote
-          >> Nested Blockquote
+> Blockquote
+>> Nested Blockquote
 
 ## 스케쥴 목적 달성 
 
