@@ -7,8 +7,8 @@
 
 ## 스케쥴 목적 달성 
 
-- [x] React Jest를 이용한 테스트 코드(CICD) 작성.
-- [x] Google Domain의 DNS를 이용한 Git-hub Pages IP 전환 + Https 적용 후 보안 활성화.
+- [x] `React` `Jest`를 이용한 테스트 코드(CICD) 작성.
+- [x] `Google Domain`의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
