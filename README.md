@@ -16,7 +16,7 @@ React | ES6+ | SCSS | PS 7.2.2
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Powershell Link](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
