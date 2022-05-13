@@ -6,10 +6,6 @@
 
 ## 사용의도
 
-> Who
->> Nested Blockquote
->> asdasd
-
 ## 스케쥴 목적 달성 
 
 - [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성.
