@@ -1,7 +1,10 @@
 # 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
 ## 사용기술
-
+Left aligned Header | Right aligned Header | Center aligned Header
+| :--- | ---: | :---:
+Content Cell  | Content Cell | Content Cell
+Content Cell  | Content Cell | Content Cell
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="100">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width="100">
 
