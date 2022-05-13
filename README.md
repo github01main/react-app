@@ -16,7 +16,7 @@ React | ES6+ | SCSS | PS 7.2.2
 
 ## Learn More
 
-[Powershell Link](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+[Powershell Link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
