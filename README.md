@@ -1,5 +1,7 @@
 # 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
+## 사용 기술
+
 ### Javascript ES6+
 
 테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [React Javascript documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
@@ -15,8 +17,6 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 ### YAML
 
 [Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
-
-## 사용의도
 
 ## 스케쥴 목적 달성 
 
