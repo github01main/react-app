@@ -1,9 +1,9 @@
 # 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
 ## 사용기술
-React | ES6+ | SCSS | PS 7.2.2
-| :---: | :---: | :---: | :---: |
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/320px-Sass_Logo_Color.svg.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" width="60">
+React | ES6+ | SCSS | PS 7.2.2 | YAML
+| :---: | :---: | :---: | :---: | :---: |
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/320px-Sass_Logo_Color.svg.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" width="60">|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/YAML_logo_in_SVG_format.svg/160px-YAML_logo_in_SVG_format.svg.png" width="60">
 
 ## 사용의도
 
