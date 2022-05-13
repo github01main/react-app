@@ -4,7 +4,7 @@
 
 In the project directory, you can run:
 
-## 목적 달성 도표
+## 스케쥴 목적 달성 
 
 - [x] CICD를 이용한 테스트 코드 작성.
 - [x] Google Domain의 DNS를 이용한 Git-hub Pages IP 전환하기.
