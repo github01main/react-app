@@ -26,3 +26,8 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 - [x] semantic versioning을 이용한 `tag` 의 버전 관리 생성. https://semver.org/ 2022 / 05 / 11
 - [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성. 2022 / 05 / 10
 - [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화. 2022 / 05 / 09
+
+## 로컬 프로젝트 파일 분실 시 원격저장소에서 복구
+```powershell 
+npm install
+```
