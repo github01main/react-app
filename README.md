@@ -4,7 +4,7 @@
 
 ### Javascript ES6+
 
-테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [REACT JAVASCRIPT Documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [REACT JS Documentation](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 
 ### SASS
 
