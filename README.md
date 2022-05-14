@@ -4,19 +4,19 @@
 
 ### Javascript ES6+
 
-테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [React Javascript documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [REACT JAVASCRIPT Documentation](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 
 ### SASS
 
-Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SASS 공식 문서 [Sass documentation](https://sass-lang.com/documentation)
+Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SASS 공식 문서 [SASS Documentation](https://sass-lang.com/documentation)
 
 ### Powershell 7.2.2
 
-반자동화 된 태그 관리와 원격 저장소 접근성에 최적화된 쉘 스크립트 작성을 위한 파워쉘 공식 문서 [Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+반자동화 된 태그 관리와 원격 저장소 접근성에 최적화된 쉘 스크립트 작성을 위한 파워쉘 공식 문서 [POWERSHELL Documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 ### YAML
 
-깃-허브 액션으로 테스트-빌드-배포를 위한 git-yaml 공식 문서 [Powershell link documentation](https://docs.github.com/en/actions/quickstart)
+깃-허브 액션으로 테스트-빌드-배포를 위한 git-yaml 공식 문서 [YAML Documentation](https://docs.github.com/en/actions/quickstart)
 
 ## 스케쥴 목적 달성 
 
