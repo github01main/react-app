@@ -12,7 +12,7 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 
 ### Powershell 7.2.2
 
-[Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+자동화 된 버전 관리와 원격 저장소 접근성에 최적화된 쉘 스크립트 작성을 위한 파워쉘 공식 문서 [Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
 ### YAML
 
