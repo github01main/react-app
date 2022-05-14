@@ -16,7 +16,7 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 
 ### YAML
 
-[Powershell link documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+깃-허브 액션으로 테스트-빌드-배포를 위한 git-yaml 공식 문서 [Powershell link documentation](https://docs.github.com/en/actions/quickstart)
 
 ## 스케쥴 목적 달성 
 
