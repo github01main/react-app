@@ -24,4 +24,5 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 - [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성.
 - [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 
 - [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음. 
+- [x] semantic versioning을 이용한 `tag` 의 버전 관리 생성. https://semver.org/
 
