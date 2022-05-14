@@ -20,10 +20,9 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 
 ## 스케쥴 목적 달성 
 
-- [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화.
-- [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성.
-- [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 
-- [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음. 
-- [x] semantic versioning을 이용한 `tag` 의 버전 관리 생성. https://semver.org/
-- [ ] powershell을 이용한 CLI 에서 push 후 `tag` 의 자동 버전 생성(그레고리력 알고리즘을 활용).    
-
+- [ ] powershell을 이용한 CLI 에서 push 후 `tag` 의 자동 버전 생성(그레고리력 알고리즘을 활용). 2022 / 00 / 00
+- [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 2022 / 05 / 11 
+- [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음.  2022 / 05 / 11
+- [x] semantic versioning을 이용한 `tag` 의 버전 관리 생성. https://semver.org/ 2022 / 05 / 11
+- [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성. 2022 / 05 / 10
+- [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화. 2022 / 05 / 09
