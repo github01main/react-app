@@ -30,4 +30,3 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 ## 로컬 프로젝트 파일 분실 시 원격저장소에서 복구
 ```powershell 
 npm install
-```
