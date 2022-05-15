@@ -17,6 +17,8 @@ jobs:
 
     - name: Test
       run: npm run test
+      env: 
+        CI: ""   
 
     - name: Deploy
       run: |
