@@ -5,11 +5,11 @@ export default function nav (){
   <>
   <StyledNav>
       <ul id='nav-list' data-testid='nav-list'>
-        <li><h2><a href='#'>Home</a></h2></li>
-        <li><h2><a href='#'>About</a></h2></li>
-        <li><h2><a href="#">Works</a></h2></li>
-        <li><h2><a href='#'>Experience</a></h2></li>
-        <li><h2><a href='#'>SNS</a></h2></li>
+        <li><h2><a href='#Home'>Home</a></h2></li>
+        <li><h2><a href='#About'>About</a></h2></li>
+        <li><h2><a href="#Works">Works</a></h2></li>
+        <li><h2><a href='#Experience'>Experience</a></h2></li>
+        <li><h2><a href='#SNS'>SNS</a></h2></li>
       </ul>
     </StyledNav>
   </>
