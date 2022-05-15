@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 리액트로 구현한 포트폴리오 사이트 제작 (개인 프로젝트).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 사용 기술
 
-## Available Scripts
+### Javascript ES6+
 
-In the project directory, you can run:
+테스트 코드르 작성을 위한 참조 리액트 자바스크립트 모질라 공식 문서 [REACT JS Documentation](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 
-### `npm start`
+### SASS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SASS 공식 문서 [SASS Documentation](https://sass-lang.com/documentation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Powershell 7.2.2
 
-### `npm test`
+태그 관리와 원격 저장소 접근성에 최적화된 쉘 스크립트 작성을 위한 파워쉘 공식 문서 [POWERSHELL Documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### YAML
 
-### `npm run build`
+깃-허브 액션으로 테스트-빌드-배포를 위한 git-yaml 공식 문서 [YAML Documentation](https://docs.github.com/en/actions/quickstart)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 스케쥴 목적 달성 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ ] powershell을 이용한 CLI 에서 push 후 `tag` 의 자동 버전 생성(그레고리력 알고리즘을 활용). 2022 / 00 / 00
+- [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 2022 / 05 / 11 
+- [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음.  2022 / 05 / 11
+- [x] semantic versioning을 이용한 `tag` 의 버전 관리 생성. https://semver.org/ 2022 / 05 / 11
+- [x] `React` `Jest` 를 이용한 테스트 코드(CICD) 작성. 2022 / 05 / 10
+- [x] `Google Domain` 의 DNS를 이용한 Git-hub `Pages` IP 전환 + Https 적용 후 보안 활성화. 2022 / 05 / 09
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 로컬 프로젝트 파일 분실 시 원격저장소에서 복구
+```powershell 
+npm install
+```

@@ -1,9 +1,28 @@
-import './App.css';
+import { ThemeProvider } from 'styled-components';
+import GlobalStyles from './components/styles/Global.js';
+import Header from './components/header.jsx';
+import Nav from './components/nav.jsx'
+
+// import './components/nav/section.jsx'
+// import './components/nav/aside.jsx'
+// import './components/nav/footer.jsx'
+
+const theme = {
+  colors:{
+    header : '#ebfbff',
+    body : '#fff',
+    footer : '#003333',
+  },
+}
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>hellow fucking world</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+    <>
+      <GlobalStyles />
+      <Header />
+      <Nav />
+    </>
+    </ThemeProvider>
   );
 }

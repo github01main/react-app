@@ -1,0 +1,7 @@
+https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token/ 
+
+1. 깃허브페이지 배포하기 위해서 깃허브 액션의 워크플로우를 바꿔줘야한다.
+
+https://github.com/github01main/react-app/settings/actions
+
+2. Workflow permissions의 default는 contents permission이지만 위에 Read and write로 변경해준다.
