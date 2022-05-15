@@ -3,7 +3,7 @@ import App from './App';
 
 test('bypass test', () => {
   render(<App />);
-  const bypass = screen.getByText("desktop");
+  const bypass = screen.getByText("bypass");
   expect(bypass).toBeInTheDocument();
 });
 
