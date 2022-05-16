@@ -10,7 +10,7 @@ export const StyledHeader = styled.header`
       #slide-show{
           height: 100%;
           width: 100%;
-
+          
           &::before{
             content: 'mobile';
           }

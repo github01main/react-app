@@ -23,7 +23,6 @@ Nested css를 사용하고 코드의 재사용성과 클린 코드를 위한 SAS
 - [ ] powershell을 이용한 CLI 에서 push 후 `tag` 의 자동 버전 생성(그레고리력 알고리즘을 활용). 2022 / 00 / 00
 - [x] `Test library` 을 이용한 엄격한 휴먼에러 테스트. 2022 / 05 / 16
 - [x] `styled-components` 로 기존 `scss` 와 `css` 파일들을 리팩토링 하였음. 2022 / 05 / 15
-- [x] `styled-components` 로 기존 `scss` 와 `css` 파일들을 리팩토링 하였음. 2022 / 05 / 15
 - [x] `components` 폴더 내 카테고리 세분화를 해제 후 종속성을 components에 재할당 하였음. 2022 / 05 / 15 
 - [x] Git-hub `Action` 을 이용한 원격저장소 컨텐츠 변경 후 리액트 빌드 및 자동 배포 활성화. 2022 / 05 / 11 
 - [x] `.gitignore` 을 이용한 멀티 플랫폼에서의 접근성 용이하도록 제외 추가하였음.  2022 / 05 / 11
