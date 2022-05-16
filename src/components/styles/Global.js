@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     border: 0;
     outline: 0;
-    color: black;
+    color: #FFF;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
   }
   
   body{
-    background-color: ${({theme}) => theme.colors.body};
+    background-color: ${({theme}) => theme.colors.main};
   }
 `
 

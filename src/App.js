@@ -9,6 +9,9 @@ import Nav from './components/nav.jsx'
 
 const theme = {
   colors:{
+    main : '#000',
+    sub_main : '#FFF',
+    main_text : '#FFF',
     header : '#ebfbff',
     body : '#fff',
     footer : '#003333',
