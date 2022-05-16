@@ -9,7 +9,7 @@ test('slide-show exist?', () => {
 
 test('slide-show-controller exist?', () => {
   render(<App />);
-  const check_slide_show_controller = screen.getByTestId("slide-show-controller");
+  const check_slide_show_controller = screen.getByTestId("controller");
   expect(check_slide_show_controller).toBeInTheDocument();
 });
 
