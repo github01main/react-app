@@ -8,6 +8,7 @@ export const StyledNav = styled.nav`
   right: 0;
   margin: 0vh 0vw 8vh 0vw;
   transition: all 0.25s;
+  font-size: 1.25vw;
   
   #nav-list{
       display: flex;
@@ -19,11 +20,13 @@ export const StyledNav = styled.nav`
             opacity: 0.5;
             transition: all 0.25s;
           }
+          
           a{
             display: inline-block; 
             position: relative;
             padding : 0vh 0vw 1vh 0vw;
 
+            // Navgation Underline Left Side Animation.
             &:after{
               content:""; 
               position: absolute; 
@@ -34,7 +37,8 @@ export const StyledNav = styled.nav`
               background-color: white; 
               transition: all .6s;
             }
-            
+
+            // Navgation Underline Right Side Animation.
             &:before{
               content:""; 
               position: absolute; 

@@ -144,13 +144,41 @@ export const StyledHeader = styled.header`
     font-size : 1.15vw;
 
     #slide-show{
-        display:flex;
-        
         height: 100%;
         width: 65%;
+        color : black;
 
-        &::before{
-          content: '';
+        background-color: ${({theme}) => theme.colors.sub_main};
+
+        :empty{
+          &::before{
+            content: 'Emptry Slide show Article';
+          }
+        }
+
+        #buttons{
+          display: flex;
+          align-content: flex-end;
+          flex-wrap: wrap;
+          height: 100%;
+          
+          button{
+            border : solid 0.25vw;
+            // border-color :aqua;
+            border-radius : 1vw;
+
+            margin : 0.5vw 0.60vw 2vw 0.60vw;
+            padding: 0.15vw 1.35vw 0.15vw 1.35vw;
+
+            opacity : 1;
+            transition: 0.25s;
+            background-color : #000;
+
+            &:hover{
+              opacity: 0.5;
+              transition: 0.25s;
+            }
+          }
         }
     }
 
@@ -171,33 +199,10 @@ export const StyledHeader = styled.header`
         #business-card{
           display: flex;
           flex-direction: column;
-          height: 80%;
+          height: 100%;
 
           p{
             margin: 1vw 1vw 1vw 1vw;
-          }
-        }
-
-        #buttons{
-          display: flex;
-          flex-direction: row;
-          height: 20%;
-
-          button{
-            border : solid 0.1vw;
-            border-radius : 0.5vw;
-
-            margin : 0.5vw 0.60vw 0.5vw 0.60vw;
-            padding: 0.15vw 1.35vw 0.15vw 1.35vw;
-
-            opacity : 1;
-            transition: 0.25s;
-
-            &:hover{
-              background-color : #FFF;
-              opacity: 0.6;
-              transition: 0.25s;
-            }
           }
         }
       }

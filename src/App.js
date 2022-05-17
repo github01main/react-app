@@ -2,8 +2,8 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './components/styles/Global.js';
 import Header from './components/header.jsx';
 import Nav from './components/nav.jsx'
+import Section from './components/section.jsx';
 
-// import './components/nav/section.jsx'
 // import './components/nav/aside.jsx'
 // import './components/nav/footer.jsx'
 
@@ -25,6 +25,7 @@ export default function App() {
       <GlobalStyles />
       <Header />
       <Nav />
+      <Section />
     </>
     </ThemeProvider>
   );
