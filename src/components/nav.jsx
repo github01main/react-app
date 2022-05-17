@@ -16,7 +16,7 @@ export default function nav (){
   <>
   <StyledNav>
       <ul id='nav-list' data-testid='nav-list'>
-        <li><p><a href='#'>Home</a></p></li>
+        <li><p><a href='https://shiwookcho.com/#'>Home</a></p></li>
         <li><p><a href='#About'>About</a></p></li>
         <li><p><a href="#Works">Works</a></p></li>
         <li><p><a href='#Experience'>Experience</a></p></li>
