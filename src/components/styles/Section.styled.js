@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledSection = styled.section`
-    // display: flex;  
+
     height: 100%;
     width: 100%;
     background-color: ${({theme}) => theme.colors.main};
@@ -18,31 +18,52 @@ export const StyledSection = styled.section`
             display : flex;
             width: 50%;
             height 100%;
-            
+            padding : 4vh 4vw 4vh 4vw;
+
             .career{
                 display : flex;
                 flex-direction: column;
-                width : 50%;
+                width : 100%;
                 height: 100%;
                 
                 #Company{
                     margin : 1vh 0vw 1vh 0vw;
+
+                    h5{
+                        margin : 2vh 0vw 2vh 0vw;
+                    }
                 }
 
                 #Fashion{
                     margin : 1vh 0vw 1vh 0vw;
+
+                    h5{
+                        margin : 2vh 0vw 2vh 0vw;
+                    }
                 }
 
                 #University{
                     margin : 1vh 0vw 1vh 0vw;
+
+                    h5{
+                        margin : 2vh 0vw 2vh 0vw;
+                    }
                 }
 
                 #Rokmc{
                     margin : 1vh 0vw 1vh 0vw;
+
+                    h5{
+                        margin : 2vh 0vw 2vh 0vw;
+                    }
                 }
 
                 #Japanese{
                     margin : 1vh 0vw 1vh 0vw;
+
+                    h5{
+                        margin : 2vh 0vw 2vh 0vw;
+                    }
                 }
             }
         }
@@ -51,12 +72,12 @@ export const StyledSection = styled.section`
             display : flex;
             width: 50%;
             height: 100%;
-            background : black;
+            padding : 4vh 4vw 4vh 4vw;
 
             .resume-profile{
                 display : flex;
                 flex-direction: column;
-                width : 50%;
+                width : 100%;
                 height: 100%;
                 img{
                     width : 15vw;
