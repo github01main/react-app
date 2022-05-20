@@ -11,45 +11,28 @@ export const StyledHeader = styled.header`
 
   #slide-show
   {
+    display : flex;
     height: 100%;
     width: 100%;
     color : black;
-
     background-color: ${({theme}) => theme.colors.sub_main};
 
     :empty
     {
       &::before
       {
+        color : white;
         content: 'empty slide show article';
       }
     }
-
-    #buttons
-    {
-      display: flex;
-      align-content: flex-end;
-      flex-wrap: wrap;
-      height: 100%;
-      
-      button
+    // My Portfolio Video Links
+    iframe{
+      opacity: 0.75;
+      transition: 0.25s;
+      &:hover
       {
-        border : solid 1vw;
-        // border-color :aqua;
-        border-radius : 2vw;
-
-        margin : 0.1vw 0.60vw 6.5vw 0.60vw;
-        padding: 1vw 6.5vw 1vw 6.5vw;
-
-        opacity : 1;
+        opacity: 1;
         transition: 0.25s;
-        background-color : #000;
-
-        &:hover
-        {
-          opacity: 0.5;
-          transition: 0.25s;
-        }
       }
     }
   }

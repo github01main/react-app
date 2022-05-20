@@ -3,12 +3,7 @@ export default function header (){
   return (
       <StyledHeader>
         <div id='slide-show' data-testid='slide-show'>
-          <div id='buttons'>
-              <button></button>
-              <button></button>
-              <button></button>
-              <button></button>
-            </div>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JOcuJe9uXx0" title="Identity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div id='controller' data-testid='controller'>
           <div id='business-card'>
