@@ -6,21 +6,31 @@ export const StyledNav = styled.nav`
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 0vh 0vw 8vh 0vw;
+  margin: 0vh 0vw 5vh 0vw;
   transition: all 0.25s;
-  font-size: 1.25vw;
+  font-size: 1vw;
   
   #nav-list{
       display: flex;
+      flex-direction: column;
+
       li{
-          padding: 0vh 2vw 0vh 1vw;
-          background: rgba(#000000, 0.15);
+          padding: 0.5vh 2vw 0.5vh 2vw;
 
           &:hover{
-            opacity: 0.5;
-            transition: all 0.25s;
+            opacity: 0.35;
+            transition: all 1s;
           }
           
+          &:after{
+            content:""; 
+            left: 50%; 
+ 
+            width: 1px; 
+            height: 1px; 
+            background-color: white; 
+          }
+
           a{
             display: inline-block; 
             position: relative;

@@ -53,7 +53,7 @@ export const StyledSection = styled.section`
             height: 100%;
             background : black;
 
-            .sns{
+            .resume-profile{
                 display : flex;
                 flex-direction: column;
                 width : 50%;

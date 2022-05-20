@@ -34,7 +34,7 @@ export default function Section (){
             </div>
 
             <div id='about-right'>
-              <div className='sns'>
+              <div className='resume-profile'>
                   <img src={profile} alt="profile" />
                   <h2>shiwook cho</h2>
                   <a href={Resume} download>Download Resume</a>

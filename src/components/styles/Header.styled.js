@@ -224,11 +224,39 @@ export const StyledHeader = styled.header`
     {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      height: 80%;
 
       p
       {
-        margin: 1vw 1vw 1vw 1vw;
+        margin: 10vh 1vw 0vh 1vw;
+      }
+    }
+    .sns{
+      display : flex;
+      width : 100%;
+      height: 20%;
+
+      a{
+        display : flex;
+
+        &:hover
+        {
+          opacity: 0.5;
+          transition: 0.25s;
+        }
+
+        #Linkedin{
+          width : 4vw;
+          height : 4vh;
+        }
+        #Instagram{
+          width : 4vw;
+          height : 4vh;
+        }
+        #Github{
+          width : 4vw;
+          height : 4vh;
+        }
       }
     }
   }
