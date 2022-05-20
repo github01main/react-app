@@ -20,7 +20,7 @@ export default function nav (){
         <li><p><a href='#About'>About</a></p></li>
         <li><p><a href="#Works">Works</a></p></li>
         <li><p><a href='#Experience'>Experience</a></p></li>
-        <li><p><a href='#SNS'>SNS</a></p></li>
+        <li><p><a href='#Contact'>Contact</a></p></li>
       </ul>
     </StyledNav>
   </>

@@ -180,10 +180,8 @@ export const StyledHeader = styled.header`
   #slide-show
   {
     height: 100%;
-    width: 65%;
-    color : black;
-
-    background-color: ${({theme}) => theme.colors.sub_main};
+    width: 50%;
+    background-color: ${({theme}) => theme.colors.main};
 
     :empty
     {
@@ -211,7 +209,7 @@ export const StyledHeader = styled.header`
 
         opacity : 1;
         transition: 0.25s;
-        background-color : #000;
+        background-color : #FFF;
 
         &:hover
         {
@@ -225,7 +223,7 @@ export const StyledHeader = styled.header`
   #controller
   {
     height: 100%;
-    width: 35%;
+    width: 50%;
 
     background-color: ${({theme}) => theme.colors.main};
 
