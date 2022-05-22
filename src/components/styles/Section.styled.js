@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
     width: 100%;
     background-color: ${({theme}) => theme.colors.main};
     transition: 0.25s;
-    font-size : 1.15vw;
+    font-size : 1.15vh;
 
 // Mobile.
 @media screen and (min-width: 360px){
@@ -32,8 +32,8 @@ export const StyledSection = styled.section`
                 .career-separate-section{
                     display: flex;
                     justify-content: flex-start;
-                    margin : 1vh 1vw 1vh 9vw;
-                    padding : 1vw 1vw 1vw 1vw;
+                    margin : 1vh 1vh 1vh 1vh;
+                    padding : 1vh 1v 1vh 1vh;
                     transition: all 0.65s;
 
                     &:hover{
@@ -43,11 +43,11 @@ export const StyledSection = styled.section`
                     
                     img{
                         width : 20%;
-                        padding-right : 1vw;
+                        padding-right : 1vh;
                     }
 
                     h5, h6{
-                        font-size : 1vw;
+                        font-size : 1.5vh;
                         text-align: left;
                     }
                 }
@@ -157,8 +157,8 @@ export const StyledSection = styled.section`
                 .career-separate-section{
                     display: flex;
                     justify-content: flex-start;
-                    margin : 1vh 1vw 1vh 9vw;
-                    padding : 1vw 1vw 1vw 1vw;
+                    margin : 1vh 1vh 1vh 9vh;
+                    padding : 1vh 1vh 1vh 1vh;
                     transition: all 0.65s;
 
                     &:hover{
@@ -169,11 +169,11 @@ export const StyledSection = styled.section`
                     img{
                         width : 20%;
                         // height : auto;
-                        padding-right : 1vw;
+                        padding-right : 1vh;
                     }
 
                     h5, h6{
-                        font-size : 1vw;
+                        font-size : 1vh;
                         text-align: left;
                     }
                 }
@@ -286,8 +286,8 @@ export const StyledSection = styled.section`
                 .career-separate-section{
                     display: flex;
                     justify-content: flex-start;
-                    margin : 1vh 1vw 1vh 9vw;
-                    padding : 1vw 1vw 1vw 1vw;
+                    margin : 1vh 1vh 1vh 9vh;
+                    padding : 1vh 1vh 1vh 1vh;
                     transition: all 0.65s;
 
                     &:hover{
@@ -298,11 +298,11 @@ export const StyledSection = styled.section`
                     img{
                         width : 20%;
                         // height : auto;
-                        padding-right : 1vw;
+                        padding-right : 1vh;
                     }
 
                     h5, h6{
-                        font-size : 1vw;
+                        font-size : 1vh;
                         text-align: left;
                     }
                 }
@@ -415,8 +415,8 @@ export const StyledSection = styled.section`
                 .career-separate-section{
                     display: flex;
                     justify-content: flex-start;
-                    margin : 1vh 1vw 1vh 9vw;
-                    padding : 1vw 1vw 1vw 1vw;
+                    margin : 1vh 1vh 1vh 9vh;
+                    padding : 1vh 1vh 1vh 1vh;
                     transition: all 0.65s;
 
                     &:hover{
@@ -427,11 +427,11 @@ export const StyledSection = styled.section`
                     img{
                         width : 20%;
                         // height : auto;
-                        padding-right : 1vw;
+                        padding-right : 1vh;
                     }
 
                     h5, h6{
-                        font-size : 1vw;
+                        font-size : 1vh;
                         text-align: left;
                     }
                 }
@@ -450,20 +450,20 @@ export const StyledSection = styled.section`
                 height: 100%;
 
                 img{
-                    width : 22.5vw;
-                    height: 22.5vw;
+                    width : 22.5vh;
+                    height: 22.5vh;
                     border: 2px solid transparent;
                     border-radius:  40%;
                 }
                 h2{
-                    margin : 1vh 0vw 1vh 0vw;
-                    font-size : 3vw;
+                    margin : 1vh 0vh 1vh 0vh;
+                    font-size : 3vh;
                 }
                 a{
-                    font-size : 1vw;
+                    font-size : 1vh;
                     margin : 2vh 0vh 2vh 0vh;
-                    border: 0.1vw solid;
-                    padding: 0vw 1vw 0vw 1vw;
+                    border: 0.1vh solid;
+                    padding: 0vh 1vh 0vh 1vh;
                     border-image: linear-gradient(to top, white, yellow) 0 1;
                 }
             }

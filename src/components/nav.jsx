@@ -7,12 +7,12 @@ import {FaMailBulk} from 'react-icons/fa';
 import { useState } from 'react';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('https://www.shiwookcho.com/#')
+  const [activeNav, setActiveNav] = useState('#')
   return (
 
   <StyledNav>
       <ul id='nav-list' data-testid='nav-list'>
-        <a href='https://www.shiwookcho.com/#' onClick={() => setActiveNav('https://www.shiwookcho.com/#')} ><BsDoorOpenFill className={activeNav === 'https://www.shiwookcho.com/#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href='https://www.shiwookcho.com/#' onClick={() => setActiveNav('#')} ><BsDoorOpenFill className={activeNav === '#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href='#About' onClick={() => setActiveNav('#About')}><BsFileEarmarkPdfFill className={activeNav === '#About' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href="#Works" onClick={() => setActiveNav('#Works')}><SiYoutube className={activeNav === '#Works' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href='#Experience' onClick={() => setActiveNav('#Experience')}><GiSwordman className={activeNav === '#Experience' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
