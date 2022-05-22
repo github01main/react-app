@@ -12,7 +12,7 @@ const Nav = () => {
 
   <StyledNav>
       <ul id='nav-list' data-testid='nav-list'>
-        <a href='https://www.shiwookcho.com/#' onClick={() => setActiveNav('#')} ><BsDoorOpenFill className={activeNav === '#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href='https://shiwookcho.com/#' onClick={() => setActiveNav('#')} ><BsDoorOpenFill className={activeNav === '#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href='#About' onClick={() => setActiveNav('#About')}><BsFileEarmarkPdfFill className={activeNav === '#About' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href="#Works" onClick={() => setActiveNav('#Works')}><SiYoutube className={activeNav === '#Works' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href='#Experience' onClick={() => setActiveNav('#Experience')}><GiSwordman className={activeNav === '#Experience' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
