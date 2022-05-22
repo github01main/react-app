@@ -1,32 +1,25 @@
 import { StyledNav } from './styles/Nav.styled.js';
-import {HiHome} from 'react-icons/hi';
-import {MdAccountBox} from 'react-icons/md';
-import {GiGearHammer} from 'react-icons/gi';
-import {MdEmail} from 'react-icons/md';
-import {IoDocumentLock} from 'react-icons/io5'
-// When the user scrolls down 50px from the top of the document, resize the header's font size
-// window.onscroll = function() {scrollFunction()};
+import {BsDoorOpenFill} from 'react-icons/bs';
+import {BsFileEarmarkPdfFill} from 'react-icons/bs';
+import {SiYoutube} from 'react-icons/si';
+import {GiSwordman} from 'react-icons/gi';
+import {FaMailBulk} from 'react-icons/fa';
+import { useState } from 'react';
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//     document.getElementById("nav-list").style.fontSize = "1.35vw";
-//   } else {
-//     document.getElementById("nav-list").style.fontSize = "1.25vw";
-//   }
-// }
-
-export default function nav (){
+const Nav = () => {
+  const [activeNav, setActiveNav] = useState('https://www.shiwookcho.com/#')
   return (
-  <>
+
   <StyledNav>
       <ul id='nav-list' data-testid='nav-list'>
-        <a href='https://shiwookcho.com/#'><HiHome className='logo-bundle'/></a>
-        <a href='#About'><MdAccountBox className='logo-bundle'/></a>
-        <a href="#Works"><GiGearHammer className='logo-bundle'/></a>
-        <a href='#Experience'><IoDocumentLock className='logo-bundle'/></a>
-        <a href='#Contact'><MdEmail className='logo-bundle'/></a>
+        <a href='https://www.shiwookcho.com/#' onClick={() => setActiveNav('https://www.shiwookcho.com/#')} ><BsDoorOpenFill className={activeNav === 'https://www.shiwookcho.com/#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href='#About' onClick={() => setActiveNav('#About')}><BsFileEarmarkPdfFill className={activeNav === '#About' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href="#Works" onClick={() => setActiveNav('#Works')}><SiYoutube className={activeNav === '#Works' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href='#Experience' onClick={() => setActiveNav('#Experience')}><GiSwordman className={activeNav === '#Experience' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href='#Contact' onClick={() => setActiveNav('#Contact')}><FaMailBulk className={activeNav === '#Contact' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
       </ul>
     </StyledNav>
-  </>
   )
 }
+
+export default Nav

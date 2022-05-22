@@ -2,6 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
   *{
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
     justify-content: center;
     place-items: center;
     
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
   
   //#region Html && Body && Img Section

@@ -8,212 +8,44 @@ export const StyledSection = styled.section`
     transition: 0.25s;
     font-size : 1.15vw;
 
-@media screen and (min-width: 320px){
+// Mobile.
+@media screen and (min-width: 360px){
+
     #About{
-        display: block;  
-        height: 65vh;
-        width: 100%;
-    
+            
+        display : flex;
+        flex-direction : column;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 1.5vh 1.5vh 1.5vh 1.5vh;
+
         #about-left{
-            margin-top : 90vh;
             display : flex;
             width: 100%;
             height 100%;
-            padding : 4vh 4vw 4vh 4vw;
-    
+
             .career{
                 display : flex;
                 flex-direction : column;
-                width : 100%;
-                height : 100%;
-    
-                .career-separate-section{
-                    display: flex;
-                    justify-content: flex-start;
-                    margin : 1vh 1vw 1vh 14vw;
-                    padding : 1vw 1vw 1vw 1vw;
-                    transition: all 0.65s;
-    
-                    &:hover{
-                        transition: all 0.25s;
-                        background : rgba(50,50,50,0.5);
-                    }
-                    img{
-                        width : 25%;
-                        height : auto;
-                        padding-right : 1vw;
-                    }
-                    h5, h6{
-                        font-size : 2.5vw;
-                        text-align: left;
-                    }
-                }
-            }
-        }
-    
-        #about-right{
-            display : flex;
-            width: 100%;
-            height: 100%;
-            padding : 4vh 4vw 4vh 4vw;
-            margin-top : 10vh;
 
-            .resume-profile{
-                display : flex;
-                flex-direction: column;
-                width : 100%;
-                height: 100%;
-    
-                img{
-                    width : 50vw;
-                    height: 50vw;
-                    object-fit: cover; 
-                    border: 2px solid transparent;
-                    border-radius:  50%;
-                }
-                h2{
-                    margin : 1vh 0vw 1vh 0vw;
-                    font-size : 7vw;
-                }
-                a{
-                    font-size : 5vw;
-                    margin : 2vh 0vh 2vh 0vh;
-                    border: 0.1vw solid;
-                    padding: 0vw 1vw 0vw 1vw;
-                    border-image: linear-gradient(to top, white, yellow) 0 1;
-                }
-            }
-        }
-    }
-    
-        .Category{
-            display: flex;  
-            height: 65vh;
-            width: auto;
-        }
-    }
-}
-
-@media screen and (min-width: 766px){
-    #About{
-        display: flex;  
-        height: 65vh;
-        width: 100%;
-    
-        #about-left{
-            margin-top : 0vh;
-            display : flex;
-            width: 50%;
-            height 100%;
-            padding : 4vh 4vw 4vh 4vw;
-    
-            .career{
-                display : flex;
-                flex-direction : column;
-                width : 100%;
-                height : 100%;
-    
-                .career-separate-section{
-                    display: flex;
-                    justify-content: flex-start;
-                    margin : 0.5vh 0.5vw 0.5vh 9vw;
-                    padding : 1vw 1vw 1vw 1vw;
-                    transition: all 0.65s;
-    
-                    &:hover{
-                        transition: all 0.25s;
-                        background : rgba(50,50,50,0.5);
-                    }
-                    img{
-                        width : 25%;
-                        height : auto;
-                        padding-right : 1vw;
-                    }
-                    h5, h6{
-                        font-size : 1.5vw;
-                        text-align: left;
-                    }
-                }
-            }
-        }
-    
-        #about-right{
-            display : flex;
-            width: 50%;
-            height: 100%;
-            padding : 4vh 4vw 4vh 4vw;
-    
-            .resume-profile{
-                display : flex;
-                flex-direction: column;
-                width : 100%;
-                height: 100%;
-    
-                img{
-                    width : 15vw;
-                    height: 15vw;
-                    object-fit: cover; 
-                    border: 2px solid transparent;
-                    border-radius:  50%;
-                }
-                h2{
-                    margin : 1vh 0vw 1vh 0vw;
-                    font-size : 3.5vw;
-                }
-                a{
-                    font-size : 1.5vw;
-                    margin : 2vh 0vh 2vh 0vh;
-                    border: 0.1vw solid;
-                    padding: 0vw 1vw 0vw 1vw;
-                    border-image: linear-gradient(to top, white, yellow) 0 1;
-                }
-            }
-        }
-    }
-    
-        .Category{
-            display: flex;  
-            height: 65vh;
-            width: auto;
-        }
-    }
-}
-
-@media screen and (min-width: 1366px){
-    #About{
-        display: flex;  
-        height: 65vh;
-        width: 100%;
-    
-        #about-left{
-            margin-top : 0vh;
-            display : flex;
-            width: 50%;
-            height 100%;
-            padding : 4vh 4vw 4vh 4vw;
-    
-            .career{
-                display : flex;
-                flex-direction : column;
-                width : 100%;
-                height : 100%;
-    
                 .career-separate-section{
                     display: flex;
                     justify-content: flex-start;
                     margin : 1vh 1vw 1vh 9vw;
                     padding : 1vw 1vw 1vw 1vw;
                     transition: all 0.65s;
-    
+
                     &:hover{
                         transition: all 0.25s;
                         background : rgba(50,50,50,0.5);
                     }
+                    
                     img{
-                        width : 18%;
-                        height : auto;
+                        width : 20%;
                         padding-right : 1vw;
                     }
+
                     h5, h6{
                         font-size : 1vw;
                         text-align: left;
@@ -221,25 +53,407 @@ export const StyledSection = styled.section`
                 }
             }
         }
-    
+
         #about-right{
             display : flex;
-            width: 50%;
+            width: 100%;
             height: 100%;
-            padding : 4vh 4vw 4vh 4vw;
-    
+
             .resume-profile{
                 display : flex;
                 flex-direction: column;
                 width : 100%;
                 height: 100%;
-    
+
                 img{
-                    width : 15vw;
-                    height: 15vw;
-                    object-fit: cover; 
+                    width : 20vh;
+                    height: 20vh;
                     border: 2px solid transparent;
-                    border-radius:  50%;
+                    border-radius:  40%;
+                }
+                h2{
+                    margin : 1vh 0vh 1vh 0vh;
+                    font-size : 3vh;
+                }
+                a{
+                    font-size : 2vh;
+                    margin : 2vh 0vh 2vh 0vh;
+                    border: 0.1vh solid;
+                    padding: 0vh 1vh 0vh 1vh;
+                    border-image: linear-gradient(to top, white, yellow) 0 1;
+                }
+            }
+        }
+    }
+
+    #Works{
+
+        display : flex;
+        flex-direction : column;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+
+        #main-frame{
+            width : 100%;
+            height : 100%;
+        }
+        
+        #sub-frame{
+            display : flex;
+            flex-wrap: wrap;
+            width : 100%;
+            height : 100%;
+            opacity : 0.25;
+            transition: all 0.65s;
+            overflow: auto;
+
+            &:hover{
+                opacity : 1;
+                transition: all 0.65s;
+            }
+        }
+    }
+
+    #Experience{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+
+    #Contact{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+}
+// Tablet.
+@media screen and (min-width: 720px){
+
+    #About{
+            
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 1.5vh 1.5vh 1.5vh 1.5vh;
+
+        #about-left{
+            display : flex;
+            width: 50%;
+            height 100%;
+
+            .career{
+                display : flex;
+                flex-direction : column;
+
+                .career-separate-section{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin : 1vh 1vw 1vh 9vw;
+                    padding : 1vw 1vw 1vw 1vw;
+                    transition: all 0.65s;
+
+                    &:hover{
+                        transition: all 0.25s;
+                        background : rgba(50,50,50,0.5);
+                    }
+                    
+                    img{
+                        width : 20%;
+                        // height : auto;
+                        padding-right : 1vw;
+                    }
+
+                    h5, h6{
+                        font-size : 1vw;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        #about-right{
+            display : flex;
+            width: 50%;
+            height: 100%;
+
+            .resume-profile{
+                display : flex;
+                flex-direction: column;
+                width : 100%;
+                height: 100%;
+
+                img{
+                    width : 40vh;
+                    height: 40vh;
+                    border: 2px solid transparent;
+                    border-radius:  40%;
+                }
+                h2{
+                    margin : 1vh 0vh 1vh 0vh;
+                    font-size : 3vh;
+                }
+                a{
+                    font-size : 3vh;
+                    margin : 2vh 0vh 2vh 0vh;
+                    border: 0.1vh solid;
+                    padding: 0vh 1vh 0vh 1vh;
+                    border-image: linear-gradient(to top, white, yellow) 0 1;
+                }
+            }
+        }
+    }
+
+    #Works{
+
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 1.5vh 15vh 1.5vh;
+
+        #main-frame{
+            width : 80%;
+            height : 100%;
+        }
+        
+        #sub-frame{
+            display : flex;
+            flex-direction : column;
+            flex-wrap: nowrap;
+            width : 20%;
+            height : 100%;
+            opacity : 0.25;
+            transition: all 0.65s;
+            overflow: auto;
+
+            &:hover{
+                opacity : 1;
+                transition: all 0.65s;
+            }
+        }
+    }
+
+    #Experience{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+
+    #Contact{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+}
+
+// Laptop.
+@media screen and (min-width: 1080px){
+
+    #About{
+            
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 10vh 10vh 10vh 10vh;
+
+        #about-left{
+            display : flex;
+            width: 50%;
+            height 100%;
+
+            .career{
+                display : flex;
+                flex-direction : column;
+
+                .career-separate-section{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin : 1vh 1vw 1vh 9vw;
+                    padding : 1vw 1vw 1vw 1vw;
+                    transition: all 0.65s;
+
+                    &:hover{
+                        transition: all 0.25s;
+                        background : rgba(50,50,50,0.5);
+                    }
+                    
+                    img{
+                        width : 20%;
+                        // height : auto;
+                        padding-right : 1vw;
+                    }
+
+                    h5, h6{
+                        font-size : 1vw;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        #about-right{
+            display : flex;
+            width: 50%;
+            height: 100%;
+
+            .resume-profile{
+                display : flex;
+                flex-direction: column;
+                width : 100%;
+                height: 100%;
+
+                img{
+                    width : 40vh;
+                    height: 40vh;
+                    border: 2px solid transparent;
+                    border-radius:  40%;
+                }
+                h2{
+                    margin : 1vh 0vh 1vh 0vh;
+                    font-size : 3vh;
+                }
+                a{
+                    font-size : 3vh;
+                    margin : 2vh 0vh 2vh 0vh;
+                    border: 0.1vh solid;
+                    padding: 0vh 1vh 0vh 1vh;
+                    border-image: linear-gradient(to top, white, yellow) 0 1;
+                }
+            }
+        }
+    }
+
+    #Works{
+
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+
+        #main-frame{
+            width : 80%;
+            height : 100%;
+        }
+        
+        #sub-frame{
+            display : flex;
+            flex-direction : column;
+            flex-wrap: nowrap;
+            width : 20%;
+            height : 100%;
+            opacity : 0.25;
+            transition: all 0.65s;
+            overflow: auto;
+
+            &:hover{
+                opacity : 1;
+                transition: all 0.65s;
+            }
+        }
+    }
+
+    #Experience{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+
+    #Contact{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+}
+
+// Desktop.
+@media screen and (min-width: 1400px){
+
+    #About{
+            
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+
+        #about-left{
+            display : flex;
+            width: 50%;
+            height 100%;
+
+            .career{
+                display : flex;
+                flex-direction : column;
+
+                .career-separate-section{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin : 1vh 1vw 1vh 9vw;
+                    padding : 1vw 1vw 1vw 1vw;
+                    transition: all 0.65s;
+
+                    &:hover{
+                        transition: all 0.25s;
+                        background : rgba(50,50,50,0.5);
+                    }
+                    
+                    img{
+                        width : 20%;
+                        // height : auto;
+                        padding-right : 1vw;
+                    }
+
+                    h5, h6{
+                        font-size : 1vw;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        #about-right{
+            display : flex;
+            width: 50%;
+            height: 100%;
+
+            .resume-profile{
+                display : flex;
+                flex-direction: column;
+                width : 100%;
+                height: 100%;
+
+                img{
+                    width : 22.5vw;
+                    height: 22.5vw;
+                    border: 2px solid transparent;
+                    border-radius:  40%;
                 }
                 h2{
                     margin : 1vh 0vw 1vh 0vw;
@@ -255,12 +469,53 @@ export const StyledSection = styled.section`
             }
         }
     }
-    
-        .Category{
-            display: flex;  
-            height: 65vh;
-            width: auto;
+
+    #Works{
+
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+
+        #main-frame{
+            width : 80%;
+            height : 100%;
         }
+        
+        #sub-frame{
+            display : flex;
+            flex-direction : column;
+            flex-wrap: nowrap;
+            width : 20%;
+            height : 100%;
+            opacity : 0.25;
+            transition: all 0.65s;
+            overflow: auto;
+            &:hover{
+                opacity : 1;
+                transition: all 0.65s;
+            }
+        }
+    }
+
+    #Experience{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
+    }
+
+    #Contact{
+        display : flex;
+        flex-direction : row;
+        width : 100%;
+        height : 100vh;
+        z-index: 1;
+        padding : 15vh 15vh 15vh 15vh;
     }
 }
 `

@@ -1,18 +1,8 @@
 @charset "utf-8";
-@import './sass/mixin.scss';
-/* ------------------------------------------------
-    NAME : Osward
-    font-family: 'Oswald', sans-serif;
------------------------------------------------- */
-@include google-font('Oswald', 'sans-serif');
-/* ------------------------------------------------
-    NAME : h1~h6
-    Purpose : Global heading font-weight sizing.
------------------------------------------------- */
+
 @for $i from 1 through 6 {
   h#{7 - $i} {
       font-weight: $i * 100 + 100;
       z-index: 1;
   }
 };
-

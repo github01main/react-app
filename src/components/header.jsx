@@ -7,8 +7,9 @@ export default function header (){
   return (
       <StyledHeader>
         <div id='slide-show' data-testid='slide-show'>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BbIhqNyT4-M?autoplay=1&mute=0&color=red&controls=1&fs=0&modestbranding=1" 
-        title="Identity" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe data-text="Thanks for hovering! I'm a tooltip"  
+                width="100%" height="100%" src="https://www.youtube.com/embed/BbIhqNyT4-M?autoplay=1&mute=0&color=red&controls=1&fs=0&modestbranding=1" 
+                title="Identity" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <div id='controller' data-testid='controller'>
           <div id='business-card'>
