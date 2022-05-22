@@ -8,12 +8,12 @@ import { useState } from 'react';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
-  
+
   return (
 
   <StyledNav>
       <ul id='nav-list' data-testid='nav-list'>
-        <a href='#' onClick={() => setActiveNav('#')} ><BsDoorOpenFill className={activeNav === '#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
+        <a href='#slide-show' onClick={() => setActiveNav('#')} ><BsDoorOpenFill className={activeNav === '#' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href='#About' onClick={() => setActiveNav('#About')}><BsFileEarmarkPdfFill className={activeNav === '#About' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href="#Works" onClick={() => setActiveNav('#Works')}><SiYoutube className={activeNav === '#Works' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
         <a href='#Experience' onClick={() => setActiveNav('#Experience')}><GiSwordman className={activeNav === '#Experience' ? 'logo-bundle-active' : 'logo-bundle'}/></a>
